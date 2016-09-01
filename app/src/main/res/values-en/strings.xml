@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Task Manager</string>
+    <string name="escriba_nombre">Your name</string>
+    <string name="escribir_email">Your email</string>
+    <string name="btn_guardar">Save</string>
+    <string name="datos_err">Some values are not correctly instantiated</string>
+    <string name="datos_ok">Data correctly entered</string>
+    <string name="email">The data is not an email addres</string>
+    <string name="min_char">At least 3 characters for Name</string>
+    <string name="vac_email">Please complete the field Email</string>
+    <string name="vac_name">Please complete the field Name</string>
+</resources>

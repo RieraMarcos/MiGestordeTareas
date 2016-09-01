@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mi Gestor de Tareas</string>
+    <string name="escriba_nombre">Escriba su nombre</string>
+    <string name="escribir_email">Escriba su email</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="vac_name">Favor complete el campo Nombre</string>
+    <string name="vac_email">Favor complete el campo Email</string>
+    <string name="email">El dato no corresponde a un Email</string>
+    <string name="min_char">Almenos 3 caracteres para el Nombre</string>
+    <string name="datos_ok">Datos ingresados correctamente</string>
+    <string name="datos_err">Algunos datos no se ingresaron correctamente</string>
+</resources>
