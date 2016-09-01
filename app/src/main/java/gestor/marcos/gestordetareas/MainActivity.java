@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
 
         UsuarioListView.setAdapter(adapter);
 
-        String nombre = nombreEditText.getText().toString();
+
 
 
 
@@ -59,9 +59,7 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
                     nombreEditText.requestFocus();
                 }else {
                     validator.validate();
-                    String datos = nombreEditText+" "+emailEditText;
-                    usuarios.add(datos);
-                    adapter.notifyDataSetChanged();
+
                 }
 
             }
@@ -75,6 +73,9 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
     @Override
     public void onValidationSucceeded() {
         Toast.makeText(this, R.string.datos_ok, Toast.LENGTH_LONG).show();
+        String datos = nombreEditText.getText()+" "+emailEditText.getText();
+        usuarios.add(datos);
+        adapter.notifyDataSetChanged();
     }
 
     @Override
